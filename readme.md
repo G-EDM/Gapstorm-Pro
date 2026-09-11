@@ -18,6 +18,8 @@
 </br>
 </br>
 
+The files provided on this repo are fully OpenSource. Have fun. No warranties!
+
 
 # Warning
 
