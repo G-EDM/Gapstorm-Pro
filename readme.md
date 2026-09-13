@@ -25,7 +25,7 @@ The files provided on this repo are fully OpenSource. Have fun. No warranties!
 
 This repo contains the upgrade Gapstorm PCB files. I already assembled the board but did not yet had time for real tests. I made a short test shorting the wires at 2.5A and everything looked good. Feedback was very nice. Once I'm done testing, a link to PCBway will be provided and the max current rating published too. For people that have the initial Gapstorm PCB I recommend to change the Gate resistor against a 100R resistor as it is on this board. The Mosfet switching happens so rapid that very high inrush currents can occur that can damage the FET. Even with the 100R resistor the Mosfet is very very fast switching without visible slope on the ESP scope.
 
-I assume the board will have no issues with 5A or maybe even 10A. I did some tests with other FETs and the 100R gate resistor did allow 10A to be used but this board has a 70uF foil cap with very low ESR. Needs more testing here before I really know the max current limit. This is no issue for wire EDM but for sinker higher current is normally wanted. 2.5 as of today is tested and safe. Once I got some cash to afford another Mosfet I will risk one to get the numbers.
+I assume the board will have no issues with 5A or maybe even 10A. I did some tests with other FETs and the 100R gate resistor did allow 10A to be used but this board has a 70uF foil cap with very low ESR. Needs more testing here before I really know the max current limit. This is no issue for wire EDM but for sinker higher current is normally wanted. 2.5 as of today is tested and safe. 
 </br>
 </br>
 
