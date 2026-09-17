@@ -20,12 +20,17 @@
 
 The files provided on this repo are fully OpenSource. Have fun. No warranties!
 
+# (fresh update) First test for max current
+
+I just made an initial test for max current without risking the big FET. Connected two parallel IRFP260N to the screw terminals of the board and was able to push 9.5A without breaking anything.
+
+The big FET has a much lower RDSon resistance so there is still a chance that it may not take the full 9.5A but this looks very good so far. No warranty on that but I think the big FET will also be able to manage the full DPH8909 current.
+
 
 # Warning
 
 This repo contains the upgrade Gapstorm PCB files. I already assembled the board but did not yet had time for real tests. I made a short test shorting the wires at 2.5A and everything looked good. Feedback was very nice. Once I'm done testing, a link to PCBway will be provided and the max current rating published too. For people that have the initial Gapstorm PCB I recommend to change the Gate resistor against a 100R resistor as it is on this board. The Mosfet switching happens so rapid that very high inrush currents can occur that can damage the FET. Even with the 100R resistor the Mosfet is very very fast switching without visible slope on the ESP scope.
 
-I assume the board will have no issues with 5A or maybe even 10A. I did some tests with other FETs and the 100R gate resistor did allow 10A to be used but this board has a 70uF foil cap with very low ESR. Needs more testing here before I really know the max current limit. This is no issue for wire EDM but for sinker higher current is normally wanted. 2.5 as of today is tested and safe. 
 </br>
 </br>
 
